@@ -9,7 +9,6 @@ export default defineConfig({
   compressHTML: true,
   integrations: [
     mdx(), 
-    icon(), 
     tailwind({
       applyBaseStyles: false
     }), 
