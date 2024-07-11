@@ -12,8 +12,7 @@ export default defineConfig({
     icon(), 
     tailwind({
       applyBaseStyles: false
-    }), 
-    compress()
+    })
   ],
   output: "server",
   adapter: cloudflare()
