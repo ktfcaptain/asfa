@@ -3,6 +3,24 @@ import ResponsiveToggle from './ResponsiveToggle.astro'
 import { DarkMode } from 'accessible-astro-components'
 import { Image } from 'astro:assets'
 import logo from '../assets/img/logo.svg'
+let targetItem: HTMLElement | null = null;
+
+const toggleDropdownMenu = (event: Event) => {
+  // Your logic here
+};
+
+const closeDropdownMenu = (dropdownMenu: HTMLElement) => {
+  // Your logic here
+};
+
+const openDropdownMenu = (dropdownMenu: HTMLElement) => {
+  // Your logic here
+};
+
+const isOutOfViewport = (element: HTMLElement) => {
+  // Your logic here
+};
+
 ---
 
 <div id="main-navigation" class="is-desktop py-8">
